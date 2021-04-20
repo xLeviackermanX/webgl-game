@@ -25,9 +25,7 @@
                 14,
                 15,
                 16,
-                17,
-                18,
-                19
+                17
             ]
         }
     ],
@@ -83,9 +81,9 @@
                 0.570947527885437
             ],
             "translation" : [
-                5.815807819366455,
-                4.21165657043457,
-                -1.1593644618988037
+                4.076244831085205,
+                5.903861999511719,
+                -1.0054539442062378
             ]
         },
         {
@@ -225,7 +223,7 @@
             ]
         },
         {
-            "name" : "Light.002",
+            "name" : "Light",
             "rotation" : [
                 0.16907575726509094,
                 0.7558803558349609,
@@ -239,7 +237,7 @@
             ]
         },
         {
-            "name" : "Camera.003",
+            "name" : "Camera",
             "rotation" : [
                 0.483536034822464,
                 0.33687159419059753,
@@ -331,34 +329,6 @@
                 0.046928469091653824,
                 1.4939773082733154
             ]
-        },
-        {
-            "name" : "Light",
-            "rotation" : [
-                0.16907575726509094,
-                0.7558803558349609,
-                -0.27217137813568115,
-                0.570947527885437
-            ],
-            "translation" : [
-                4.076245307922363,
-                5.903861999511719,
-                -1.0054539442062378
-            ]
-        },
-        {
-            "name" : "Camera",
-            "rotation" : [
-                0.483536034822464,
-                0.33687159419059753,
-                -0.20870360732078552,
-                0.7804827094078064
-            ],
-            "translation" : [
-                7.358891487121582,
-                4.958309173583984,
-                6.925790786743164
-            ]
         }
     ],
     "materials" : [
@@ -381,9 +351,9 @@
             "name" : "Material_002",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
+                    0.015479340218007565,
                     1,
-                    0.002981399418786168,
-                    0.008466405794024467,
+                    0.023628531023859978,
                     1
                 ],
                 "metallicFactor" : 0,
@@ -400,9 +370,9 @@
             "name" : "Material_004",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.03192516788840294,
-                    0.015174618922173977,
+                    0.3032054007053375,
                     1,
+                    0.025395719334483147,
                     1
                 ],
                 "metallicFactor" : 0,
@@ -414,9 +384,9 @@
             "name" : "Material_005",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.021955005824565887,
-                    0.04825518652796745,
+                    0.09310641139745712,
                     1,
+                    0.01721823215484619,
                     1
                 ],
                 "metallicFactor" : 0,
@@ -428,9 +398,9 @@
             "name" : "Material_006",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
+                    0.215582475066185,
                     1,
-                    0.009768234565854073,
-                    0.4136596918106079,
+                    0.015479340218007565,
                     1
                 ],
                 "metallicFactor" : 0,
@@ -862,7 +832,7 @@
         {
             "bufferView" : 25,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "max" : [
                 1,
                 1,
@@ -878,13 +848,13 @@
         {
             "bufferView" : 26,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "type" : "VEC3"
         },
         {
             "bufferView" : 27,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "type" : "VEC2"
         },
         {
@@ -896,7 +866,7 @@
         {
             "bufferView" : 29,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "max" : [
                 1,
                 1,
@@ -912,13 +882,13 @@
         {
             "bufferView" : 30,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "type" : "VEC3"
         },
         {
             "bufferView" : 31,
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 192,
             "type" : "VEC2"
         }
     ],
@@ -1050,44 +1020,44 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 3216,
+            "byteLength" : 2304,
             "byteOffset" : 111276
         },
         {
             "buffer" : 0,
-            "byteLength" : 3216,
-            "byteOffset" : 114492
+            "byteLength" : 2304,
+            "byteOffset" : 113580
         },
         {
             "buffer" : 0,
-            "byteLength" : 2144,
-            "byteOffset" : 117708
+            "byteLength" : 1536,
+            "byteOffset" : 115884
         },
         {
             "buffer" : 0,
             "byteLength" : 744,
-            "byteOffset" : 119852
+            "byteOffset" : 117420
         },
         {
             "buffer" : 0,
-            "byteLength" : 3216,
-            "byteOffset" : 120596
+            "byteLength" : 2304,
+            "byteOffset" : 118164
         },
         {
             "buffer" : 0,
-            "byteLength" : 3216,
-            "byteOffset" : 123812
+            "byteLength" : 2304,
+            "byteOffset" : 120468
         },
         {
             "buffer" : 0,
-            "byteLength" : 2144,
-            "byteOffset" : 127028
+            "byteLength" : 1536,
+            "byteOffset" : 122772
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 129172,
-            "uri" : "enemy.bin"
+            "byteLength" : 124308,
+            "uri" : "attacker.bin"
         }
     ]
 }
