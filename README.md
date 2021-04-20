@@ -1,7 +1,8 @@
 # webgl-game
 3-d webgl game development assignment given in course Computer Graphics, using Three.js.
-
+</br>
 ##Controls:
-P = shoot
-A = move left
-D = move right
+</br>
+P = shoot</br>
+A = move left</br>
+D = move right</br>
